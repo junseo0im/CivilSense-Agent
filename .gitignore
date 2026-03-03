@@ -1,0 +1,36 @@
+# Environment
+.env
+.venv
+venv
+env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ChromaDB
+chroma_data/
+
+# SQLite (로컬 데모 DB)
+*.db
+*.db-journal
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (frontend)
+node_modules/
+frontend/dist/
+
+# Logs / local
+*.log
+.DS_Store
+
+# Local-only docs (not for GitHub)
+docs/archive/
